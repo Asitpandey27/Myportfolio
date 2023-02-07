@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(213, 207, 207);
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+    
+
+.main {
+   /* background-color: yellow;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /*background-color: rgb(255, 0, 195);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 40px;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.about{
+    font-size: 25px;
+}
+.btn {
+    margin-top: 34px;
+}
+
+.button button{
+    padding:9px 14px ;
+    border-radius:22px ;
+    background-color:rebeccapurple ;
+    color:white ;
+    font-size: 15px;
+    font-weight:0 9px ;
+}
+
+.button button:hover{
+    background-color:white ;
+    color:rebeccapurple ;
+    font-size: 15px;
+    font-weight:0 9px ;
+}
+
+
+
+.devpic img{
+    height: 58vh;
+}
+.contactform{
+    font-family: 'PT Sans', sans-serif;
+    padding: 0 34px; 
+    padding-top: 130px;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contactform form div{
+    padding: 10px 0 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 16vw;
+    border-radius:5px 0 ;
+    margin: 6px;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: rgb(11, 11, 244);
+    margin:0 5px ;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+width: 20px;
+}
+.btn-sm{
+   
+    padding:9px 14px ;
+    border-radius:22px ;
+    background-color:rebeccapurple ;
+    color:white ;
+    font-size: 15px;
+    font-weight:0 9px ;
+}
+
+.btn-sm:hover{
+    font-size: 17px;
+    background-color:white ;
+    color:rebeccapurple ;
+    font-size: 15px;
+    font-weight:0 9px ;
+}
+h1 a {
+    background-color: rgb(0, 255, 166);
+    color: red;
+
+}
+#about h2{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#about .section__subtitle{
+   font-weight: bolder;
+}
+
+.about__data p{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+   
+
+}
+.cal img {
+    text-align: justify;
+}
+.cal a{
+    text-align: left;
+   background-color: rgb(6, 250, 14) ;
+   text-decoration: none;
+}
+.about__data h2{
+    padding: 50px;
+    margin-top: 60px;
+    margin-left: -255px;
+}
+.Skillcontainer{
+    padding: 12px;
+    margin-left: -500px;
+}
+.Skillitem{
+    display: flex;
+    align-items: center;
+}
+
+.Skill{
+    width: 300px;
+    height: 10px;
+    background-color: red;
+    border: 2px solid black
+}
+
+.t5{
+    background-color: yellow;
+    width: 75px;
+}
+
+.s5{
+    background-color: yellow;
+    width: 150px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.humbargur{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.hum{
+    margin-top: 10px;
+}
+.cross{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+@media (max-width: 1000px) {
+    
+   
+}
+ 
